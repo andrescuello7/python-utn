@@ -66,6 +66,74 @@
 .imgLogoUtn{
     width: 80%;
 }
+.bg-descripcion{
+    width: 50%;
+}
+.aboutPage{
+    margin: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutVideo{
+    width: 50%;
+}
+.descripcionCreacion{
+    width: 50%;
+}
+@media  (max-Width: 780px){
+    .bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.753);
+        color: blanchedalmond;
+        padding: 2% 0%;
+    }
+    .bg-descripcion{
+        width: 90%;
+    }
+    .aboutPage{
+        margin: 5%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutVideo{
+        width: 90%;
+    }
+    .about{
+        text-align: center;
+        margin: 5% 0%;
+        width: 100%;
+    }
+    .creacionDescripcion{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 6%;
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .creacion{
+        margin-top: 15%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .descripcionCreacion{
+        margin-top: 7%;
+        width: 100%;
+    }
+
+}
+
+
 
 .text-of-description{
     font-size: 15px;
